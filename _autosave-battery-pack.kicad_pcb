@@ -1732,7 +1732,7 @@
   )
 
   (module LEDs:LED-1206 (layer F.Cu) (tedit 55BDE2E8) (tstamp 5685FD54)
-    (at 207.645 35.56)
+    (at 257.81 168.275)
     (descr "LED 1206 smd package")
     (tags "LED1206 SMD")
     (path /5686F26B)
@@ -2881,7 +2881,7 @@
   )
 
   (module Resistors_SMD:R_1206 (layer F.Cu) (tedit 5415CFA7) (tstamp 5685FFCC)
-    (at 298.45 0)
+    (at 297.18 167.64)
     (descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 1206")
     (path /5686F271)
