@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/physiii/circuits/battery-pack/battery-pack.sch</source>
+    <date>Thu 31 Mar 2016 09:04:24 PM CDT</date>
+    <tool>Eeschema 4.0.2-4+6225~38~ubuntu15.10.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>battery-pack.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="F1">
+      <value>01000057Z</value>
+      <footprint>battery-pack:ATC_FUSE</footprint>
+      <datasheet>http://www.mouser.com/ds/2/240/Littelfuse_fuse-clips-186442.pdf</datasheet>
+      <fields>
+        <field name="Part Number">01000057Z</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567F7B7C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <footprint>battery-pack:TerminalBlock-ESPM02200</footprint>
+      <datasheet>http://www.mouser.com/ds/2/18/200912210387880-199.pdf</datasheet>
+      <fields>
+        <field name="Part Number">ESPM02200</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>567F8AB4</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>18650-PC8</value>
+      <footprint>battery-pack:BK-18650-PC8</footprint>
+      <fields>
+        <field name="Part Number">BK-18650-PC8</field>
+      </fields>
+      <libsource lib="battery-pack-cache" part="18650-PC8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568616AD</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56862069</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56863624</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56866F53</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56866F71</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686C1F3</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686C211</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686C223</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686C248</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>18650-PC8</value>
+      <footprint>battery-pack:BK-18650-PC8</footprint>
+      <fields>
+        <field name="Part Number">BK-18650-PC8</field>
+      </fields>
+      <libsource lib="battery-pack-cache" part="18650-PC8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F265</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F26B</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F289</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F29F</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F2C5</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F2D4</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F2F2</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F301</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5686F325</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>18650-PC8</value>
+      <footprint>battery-pack:BK-18650-PC8</footprint>
+      <fields>
+        <field name="Part Number">BK-18650-PC8</field>
+      </fields>
+      <libsource lib="battery-pack-cache" part="18650-PC8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568726B9</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568726BF</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568726C5</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568726DD</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBZ5221BLT1-D-79158.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568726F3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568726F9</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872705</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5687270B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872719</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872728</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872746</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872755</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872779</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>18650-PC8</value>
+      <footprint>battery-pack:BK-18650-PC8</footprint>
+      <fields>
+        <field name="Part Number">BK-18650-PC8</field>
+      </fields>
+      <libsource lib="battery-pack-cache" part="18650-PC8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872791</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872797</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568727B5</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568727CB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568727F1</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872800</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5687281E</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>ZENER</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">MMBZ5229BLT1G</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5687282D</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872839</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part Number">LS Q976-NR-1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56872851</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EA9C2D</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EA9DAD</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAA0CC</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAA3FE</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAA7DD</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAAA2D</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAAF65</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAB19B</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAB32A</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAB4BC</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAB6A6</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EABC1A</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAC20C</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAC8BA</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>MMBT3904LT1G</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.mouser.com/ds/2/308/MMBT3904LT1-D-113169.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MMBT3904LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BC413"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EACDE0</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAE64B</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAE7B2</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAE974</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAEC97</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAEE13</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAEF62</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAF0CE</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EAF251</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB21E5</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB253E</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB277E</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB2CA5</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB2DC5</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB2F4D</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB3325</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB3947</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB3DD9</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB3F02</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB414C</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB426D</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB439D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB480D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB492F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB4A84</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB4BBE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB4F04</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB5036</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB5191</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB5473</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB55D6</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB5720</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB588D</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB59CD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB5B1E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB5C6C</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB5E01</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB5F53</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB62F6</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB6454</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB6603</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB695B</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB6AF4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB70A8</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB73E3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="battery-pack-cache" part="18650-PC8">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">18650-PC8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V-" type="power_out"/>
+        <pin num="2" name="V+" type="power_out"/>
+        <pin num="3" name="V+" type="power_out"/>
+        <pin num="4" name="V-" type="power_out"/>
+        <pin num="5" name="V-" type="power_out"/>
+        <pin num="6" name="V+" type="power_out"/>
+        <pin num="7" name="V+" type="power_out"/>
+        <pin num="8" name="V-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC413">
+      <aliases>
+        <alias>BC413B</alias>
+        <alias>BC413C</alias>
+        <alias>BC414</alias>
+        <alias>BC414B</alias>
+        <alias>BC414C</alias>
+      </aliases>
+      <description>30V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.cdil.com/datasheets/bc413_14_b_c.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC413</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="battery-pack-cache">
+      <uri>/home/physiii/circuits/battery-pack/battery-pack-cache.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/usr/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="2" name="Net-(Q12-Pad2)">
+      <node ref="Q12" pin="2"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D20-Pad1)">
+      <node ref="D20" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q12-Pad1)">
+      <node ref="Q12" pin="1"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D28-Pad2)">
+      <node ref="R40" pin="1"/>
+      <node ref="D28" pin="2"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D32-Pad1)">
+      <node ref="D32" pin="1"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="7" name="Net-(Q16-Pad1)">
+      <node ref="Q16" pin="1"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="11" name="Net-(Q16-Pad2)">
+      <node ref="Q16" pin="2"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Q4-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="14" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="16" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="Q16" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="19" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="20" name="Net-(Q11-Pad2)">
+      <node ref="R31" pin="1"/>
+      <node ref="Q11" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D19-Pad1)">
+      <node ref="D19" pin="1"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="22" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D31-Pad1)">
+      <node ref="D31" pin="1"/>
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q15-Pad1)">
+      <node ref="R47" pin="2"/>
+      <node ref="Q15" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="29" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D12-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="31" name="Net-(Q8-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D16-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="33" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D3-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="U3" pin="5"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="35" name="Net-(Q15-Pad2)">
+      <node ref="R43" pin="2"/>
+      <node ref="Q15" pin="2"/>
+    </net>
+    <net code="36" name="Net-(D30-Pad1)">
+      <node ref="D30" pin="1"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="37" name="Net-(Q10-Pad2)">
+      <node ref="R30" pin="1"/>
+      <node ref="Q10" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="39" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q14-Pad1)">
+      <node ref="R46" pin="2"/>
+      <node ref="Q14" pin="1"/>
+    </net>
+    <net code="42" name="Net-(Q14-Pad2)">
+      <node ref="Q14" pin="2"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D2-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="D2" pin="2"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="44" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="45" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D22-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="47" name="VCC">
+      <node ref="U4" pin="7"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D24" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D25-Pad2)">
+      <node ref="R37" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="D25" pin="2"/>
+    </net>
+    <net code="50" name="Net-(Q9-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="Q9" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D17-Pad1)">
+      <node ref="D17" pin="1"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="52" name="Net-(Q9-Pad1)">
+      <node ref="Q9" pin="1"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D21-Pad2)">
+      <node ref="R29" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D29-Pad1)">
+      <node ref="R45" pin="1"/>
+      <node ref="D29" pin="1"/>
+    </net>
+    <net code="55" name="Net-(Q13-Pad1)">
+      <node ref="R45" pin="2"/>
+      <node ref="Q13" pin="1"/>
+    </net>
+    <net code="56" name="Net-(Q13-Pad2)">
+      <node ref="Q13" pin="2"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="57" name="Net-(Q1-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="59" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D1-Pad2)">
+      <node ref="Q13" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="62" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D14-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="64" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D6-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D26-Pad1)">
+      <node ref="Q10" pin="3"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="6"/>
+      <node ref="D26" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D10-Pad1)">
+      <node ref="D14" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="D10" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="68" name="GND">
+      <node ref="Q5" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D17-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D13-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="D9" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D11-Pad1)">
+      <node ref="Q3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="D15" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="72" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D27-Pad1)">
+      <node ref="D27" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="6"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D25-Pad1)">
+      <node ref="Q9" pin="3"/>
+      <node ref="R33" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D29" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="75" name="Net-(D12-Pad1)">
+      <node ref="D16" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="76" name="Net-(D28-Pad1)">
+      <node ref="R36" pin="1"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="6"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="77" name="Net-(D11-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="D11" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="78" name="Net-(Q7-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="Q7" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D18-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D18" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D15-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="81" name="Net-(Q7-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="82" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="D23" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+  </nets>
+</export>

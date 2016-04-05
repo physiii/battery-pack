@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/physiii/circuits/battery-pack/battery-pack.sch)
-    (date "Thu 31 Mar 2016 04:22:07 PM CDT")
+    (date "Thu 31 Mar 2016 04:21:29 PM CDT")
     (tool "Eeschema 4.0.2-4+6225~38~ubuntu15.10.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
